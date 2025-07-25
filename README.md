@@ -4,8 +4,8 @@
 
 ## 项目概述
 
-- **数据源**: 中文维基百科 20250201 dump
-- **数据地址**: https://dumps.wikimedia.org/zhwiki/20250201/
+- **数据源**: 中文维基百科 20250401 dump
+- **数据地址**: https://dumps.wikimedia.org/zhwiki/20250401/
 - **输出格式**: JSONL，结构为 `{"text": "", "meta": {}}`
 - **目标**: 生成高质量的中文文本数据用于语言模型预训练
 
@@ -57,12 +57,12 @@ python main.py --download
 
 #### 处理已下载的数据文件：
 ```bash
-python main.py --process data/zhwiki-20250201-pages-articles.xml.bz2 --max-articles 5000
+python main.py --process data/zhwiki-20250401-pages-articles.xml.bz2 --max-articles 5000
 ```
 
 #### 创建样本文件：
 ```bash
-python main.py --process data/zhwiki-20250201-pages-articles.xml.bz2 --sample 1000
+python main.py --process data/zhwiki-20250401-pages-articles.xml.bz2 --sample 1000
 ```
 
 ### 3. 参数说明
