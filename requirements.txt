@@ -1,0 +1,6 @@
+requests>=2.31.0
+lxml>=4.9.3
+beautifulsoup4>=4.12.2
+tqdm>=4.66.1
+mwparserfromhell>=0.6.4
+regex>=2023.8.8
