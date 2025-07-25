@@ -12,7 +12,7 @@
 ## 项目结构
 
 ```
-kimi笔试/
+data-cleaning/
 ├── main.py              # 主处理脚本
 ├── downloader.py        # 维基百科数据下载器
 ├── parser.py            # XML解析器
